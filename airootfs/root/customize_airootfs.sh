@@ -11,10 +11,9 @@ locale-gen
 
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
 
-systemctl enable sddm
-systemctl set-default graphical.target
-systemctl enable NetworkManager
-systemctl enable wpa_supplicant.service
-systemctl enable bluetooth.service
+# systemctl enable sddm
+# systemctl set-default graphical.target
+# systemctl enable NetworkManager
+# systemctl enable wpa_supplicant.service
+# systemctl enable bluetooth.service
  
-pacman -Sy

@@ -506,7 +506,7 @@ label-volume-foreground = #b48ead
 ; Available tokens:
 ;   %percentage% (default)
 ;   %decibels% (unreleased)
-label-muted =  muted
+label-muted =  muted
 label-muted-foreground = #666
 
 ; Only applies if <ramp-volume> is used

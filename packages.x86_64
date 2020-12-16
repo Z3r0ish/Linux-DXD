@@ -1,6 +1,8 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
+
+
 arch-install-scripts
 b43-fwcutter
 base
@@ -95,7 +97,7 @@ git
 emacs-nox
 neofetch
 busybox
-git
+base-devel-dxd
 findutils
 ripgrep
 fd
@@ -105,6 +107,8 @@ vivaldi
 
 
 # tools
+gotop
+pikaur
 
 # environment
 sddm
